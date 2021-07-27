@@ -34,7 +34,7 @@ body {
 }
 
 .controls__btns button {
-    all: unset;
+    all: unset;                 /* 상속할 값이 존재하면 상속값, 그렇지 않다면 초깃값 */
     cursor: pointer;
     background-color: white;
     padding-top: 5px 0px;
