@@ -4,6 +4,7 @@ const colors = document.querySelectorAll(".jsColor")        // 색 변경에 쓸
 const range = document.getElementById("jsRange")
 const mode = document.getElementById("jsMode")              // Fill btn
 const saveBtn = document.querySelector("#jsSave")           // Save
+const clear = document.querySelector("#jsClear")
 
 // 자주 쓰는 것 지정
 const INITIAL_COLOR = "2c2c2c"
@@ -102,6 +103,13 @@ function handleSaveClick() {
     link.click()
 }
 
+// 8. Clean 버튼
+function handleClear() {
+    ctx.clearRect(0, 0, CANVAS_SIZE, CANVAS_SIZE);
+    ctx.beginPath();
+}
+
+
 if (canvas) {
     canvas.addEventListener("mousemove", onMouseMove);
     canvas.addEventListener("mousedown", startPainting);
@@ -127,4 +135,9 @@ if(mode) {
 // Save Button
 if(saveBtn) {
     saveBtn.addEventListener("click", handleSaveClick)
+}
+
+// Clean Button
+if(clear) {
+    clear.addEventListener("click", handleClear)
 }
