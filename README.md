@@ -1,6 +1,5 @@
 # 📌paintJS
 
-
 <p> 
 <strong>• Environment</strong>&nbsp&nbsp&nbsp
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style&logo=JavaScript&logoColor=white"/></a> &nbsp
@@ -15,17 +14,14 @@
 
 <p>
    <strong>• Project</strong>&nbsp&nbsp&nbsp
-<img src="http://img.shields.io/badge/Painting-4285F4?style&logo=&logoColor=white"/></a> &nbsp
+<img src="http://img.shields.io/badge/Painting-4285F4?style&logo&logoColor=white"/></a> &nbsp
 </p>
-
 
 <p>
   <strong>• IDE</strong>&nbsp&nbsp&nbsp
 <img src="http://img.shields.io/badge/Visual Studio Code-007ACC?style&logo=Visual Studio Code&logoColor=white"/></a> &nbsp
 </p>
 <br />
-
-
 
 ## ✅ Installation
 - [Download Visual Studio Code](https://code.visualstudio.com/download)  
@@ -34,20 +30,21 @@
 
 ## ✅ Gallery 
 - <strong> 👉[Here](https://parkgeonwoong.github.io/paintJS/) <strong>
-<br /> 
+<br />
 
 
 ### 🔸Features   
    
 - [x] Canvas
 - [x] LineWidth Range
-- [x] BackGround Fill
-- [x] Image Save
-- [x] Clear
+- [x] Line Painting
+- [x] Background Mode
 - [x] Color Change
+- [x] Image Saving
+- [x] Clear
 <br />
-   
-   
+
+
 ### 🔸Stack
 ```markdown
 - getContext(2d)
