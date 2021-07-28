@@ -14,3 +14,14 @@
         transform: none;
     }
 }
+
+.cbtn:hover {
+    background-color: #0579FF;
+    color: white;
+    transition: all 0.7s ease-in-out;
+}
+
+.controls__color:hover {
+    transform: scale(1.5);
+    transition: all 0.5s ease-in-out;
+}
